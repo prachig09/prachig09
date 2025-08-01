@@ -1,14 +1,14 @@
 ## Welcome to My GitHub! 
 
-Hey there! I’m Prachi, a computer science enthusiast. This profile is where I like to code out my ideas to give a share my kind of imagination.
+Hi, I’m Prachi a passionate computer science enthusiast who loves turning ideas into interactive, useful software. This profile is where I bring imagination to life through code.
 
 ## About Me
 
-- **Currently Exploring**: NLP, machine learning, Web Design and Development 
+- **Currently Exploring**: NLP, machine learning, Full Stack Web Development 
 - **Learning**:[React, Docker, React Native (TS)]
 ## Projects & Repositories
 
-Here’s a glimpse into my coding journey. Feel free to check out my projects:
+Here’s a peek into my coding journey — a collection of projects where I experiment, build, and grow as a developer. Feel free to explore and see what I’ve been working on!
 
 
 
@@ -18,7 +18,7 @@ Here’s a glimpse into my coding journey. Feel free to check out my projects:
 
 ## 📢 Want to Collaborate?
 
-If you’re interested in collaborating on a project or just want to share an idea to make life technically easier, feel free to reach out. Let’s create something amazing together!
+Have an idea that could make life easier through tech? Or working on something exciting and looking for a collaborator? I’d love to connect, brainstorm, or build something impactful together.
 
 
 Thanks for stopping by my GitHub profile! I hope you enjoy exploring my projects as much as I enjoyed working on them!
