@@ -4,21 +4,8 @@ Hi, I’m Prachi a passionate computer science enthusiast who loves turning idea
 
 ## About Me
 
-- **Currently Exploring**: NLP, machine learning, Full Stack Web Development 
-- **Learning**:[React, Docker, React Native (TS)]
-## Projects & Repositories
+- **Currently Exploring**: Machine Learning (ML), Pattern Recognition (PR), Explainable AI (XAI)
+- This repository is a growing collection of my learning journey — from research ideas to practical implementations.
 
-Here’s a peek into my coding journey — a collection of projects where I experiment, build, and grow as a developer. Feel free to explore and see what I’ve been working on!
-
-
-
-## 🌐 Connect With Me
-
-- **LinkedIn**: [Your LinkedIn Profile]
-
-## 📢 Want to Collaborate?
-
-Have an idea that could make life easier through tech? Or working on something exciting and looking for a collaborator? I’d love to connect, brainstorm, or build something impactful together.
-
-
-Thanks for stopping by my GitHub profile! I hope you enjoy exploring my projects as much as I enjoyed working on them!
+## Always a Believer OF
+“Code is not just logic — it’s creativity in motion.”
