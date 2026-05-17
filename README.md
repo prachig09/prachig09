@@ -1,20 +1,16 @@
 <div align="center">
 
 # Hello! Prachi Here,  
-🎓 PG Student • Curious Builder • Lifelong Learner  
+PG Student • Curious Builder • Lifelong Learner  
 
 </div>
 
----
+## 🔍 About Me
 
-## 📑 About Me
-
-- 🌱 A passionate **Computer Science** enthusiast
-- **🔍 Currently Exploring**: Machine Learning (**ML**), Pattern Recognition (**PR**), Explainable AI (**XAI**)
-- 🧩 Love turning **Ideas** into **Interactive** & useful **Software**
-- 📈 Growing collection of my learning journey from **Research Ideas** to **Practical Implementation**
-
----
+- Passionate about building intelligent and scalable systems
+- **Interested In:** Multi-Agent AI, Workflow Automation, Machine Learning (**ML**), Explainable AI (**XAI**) and Distributed backend architectures
+- Love building systems that automate real-world workflows using **AI agents and orchestration frameworks**
+- **Exploring technologies:** FastAPI, LangGraph, Kafka, Vector Databases, and modern AI infrastructure
 
 ## 🌐 Socials
 
@@ -42,6 +38,8 @@
 ![React Native](https://img.shields.io/badge/React_Native-1f2a44?style=for-the-badge&logo=react&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/NodeJS-1f2a44?style=for-the-badge&logo=node.js&logoColor=white)
 ![Expo](https://img.shields.io/badge/Expo-1f2a44?style=for-the-badge&logo=expo&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-1f2a44?style=for-the-badge&logo=fastapi&logoColor=white)
+
 
 
 ### Data, ML & Cloud
@@ -58,6 +56,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-1f2a44?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-1f2a44?style=for-the-badge&logo=sqlite&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-1f2a44?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-1f2a44?style=for-the-badge&logo=docker&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-1f2a44?style=for-the-badge&logo=figma&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-1f2a44?style=for-the-badge&logo=canva&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-1f2a44?style=for-the-badge&logo=trello&logoColor=white)
@@ -81,6 +80,6 @@
 <div align="center">
   
 **Always a Believer Of**<br>
-✨ “Code is not just logic, it’s creativity in motion.” ✨  
+“Code is not just logic, it’s creativity in motion.”   
 
 </div>
