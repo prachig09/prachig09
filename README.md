@@ -18,8 +18,6 @@ PG Student • Curious Builder • Lifelong Learner
 [![Email](https://img.shields.io/badge/Email-1f2a44?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prachiege2025@gmail.com)
 
 
----
-
 ## 💻 Tech Stack
 
 ### Languages & Core
@@ -61,7 +59,6 @@ PG Student • Curious Builder • Lifelong Learner
 ![Canva](https://img.shields.io/badge/Canva-1f2a44?style=for-the-badge&logo=canva&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-1f2a44?style=for-the-badge&logo=trello&logoColor=white)
 
----
 
 ## 📊 GitHub Stats
 
@@ -69,13 +66,11 @@ PG Student • Curious Builder • Lifelong Learner
 ![](https://nirzak-streak-stats.vercel.app/?user=prachig09&theme=cobalt&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=prachig09&layout=compact&theme=cobalt&hide_border=false)
 
----
 
 ## 🏆 GitHub Achievements
 
 ![](https://github-profile-trophy.vercel.app/?username=prachig09&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
 
----
 
 <div align="center">
   
