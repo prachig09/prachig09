@@ -1,0 +1,63 @@
+
+name: Update Women in Tech Daily Quote
+
+on:
+  schedule:
+    # Runs automatically every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from Actions tab
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Quote and Update README
+        run: |
+          # Fetch dynamic quote from Women in Tech API
+          RESPONSE=$(curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal")
+          
+          # Run Python inline script to parse and update README.md
+          python3 -c "
+          import urllib.request
+          import json
+          import re
+
+          # Fetch quote from API
+          url = 'https://raw.githubusercontent.com/skolakoda/programming-quotes-api/master/backup/quotes.json'
+          req = urllib.request.urlopen(url)
+          data = json.loads(req.read().decode('utf-8'))
+          
+          # Filter quotes by iconic female computer scientists/tech pioneers
+          women_in_tech = ['Grace Hopper', 'Ada Lovelace', 'Margaret Hamilton', 'Anita Borg', 'Radia Perlman', 'Barbara Liskov', 'Fei-Fei Li', 'Joy Buolamwini', 'Adele Goldberg']
+          tech_quotes = [q for q in data if any(author in q.get('author', '') for author in women_in_tech)]
+          
+          import random
+          selected = random.choice(tech_quotes) if tech_quotes else random.choice(data)
+          
+          quote_text = selected['en']
+          author_text = selected['author']
+
+          new_block = f'> > \"{quote_text}\"\n> > — *{author_text}*'
+
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          pattern = r'<!-- DAILY_QUOTE:START -->.*?<!-- DAILY_QUOTE:END -->'
+          replacement = f'<!-- DAILY_QUOTE:START -->\n{new_block}\n<!-- DAILY_QUOTE:END -->'
+          
+          updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          with open('README.md', 'w') as f:
+              f.write(updated_content)
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "⚡ bot: update daily inspiration quote" || exit 0
+          git push
