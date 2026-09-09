@@ -10,10 +10,63 @@ jobs:
     runs-on: ubuntu-latest
     name: Update README with recent GitHub activity
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-      - uses: Readme-Workflows/recent-activity@v2.4.1
+      - name: Fetch Recent Activity & Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 -c "
+          import urllib.request
+          import json
+          import os
+          import re
+
+          token = os.environ.get('GH_TOKEN')
+          username = os.environ.get('USERNAME')
+          url = f'https://api.github.com/users/{username}/events/public?per_page=15'
+          
+          req = urllib.request.Request(url, headers={'Authorization': f'token {token}', 'User-Agent': 'Python'})
+          
+          try:
+              with urllib.request.urlopen(req) as response:
+                  events = json.loads(response.read().decode())
+              
+              commits = []
+              for event in events:
+                  if event['type'] == 'PushEvent':
+                      repo_name = event['repo']['name']
+                      for commit in event['payload'].get('commits', []):
+                          msg = commit['message'].split('\n')[0]
+                          sha = commit['sha'][:7]
+                          commits.append(f'* ⚡ [{msg}](https://github.com/{repo_name}/commit/{commit[\"sha\"]}) in `{repo_name}` (`{sha}`)')
+                          if len(commits) >= 5:
+                              break
+                  if len(commits) >= 5:
+                      break
+
+              activity_str = '\n'.join(commits) if commits else '* No recent public commit activity.'
+
+              with open('README.md', 'r') as f:
+                  content = f.read()
+
+              pattern = r'<!-- RECENT_ACTIVITY:START -->.*?<!-- RECENT_ACTIVITY:END -->'
+              replacement = f'<!-- DAILY_ACTIVITY:START -->\n{activity_str}\n<!-- RECENT_ACTIVITY:END -->'
+
+              updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+              with open('README.md', 'w') as f:
+                  f.write(updated)
+          except Exception as e:
+              print(f'Error fetching activity: {e}')
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "⚡ bot: update recent activity log" || exit 0
+          git push
