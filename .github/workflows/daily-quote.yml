@@ -2,9 +2,8 @@ name: Update Daily Quote
 
 on:
   schedule:
-    # Runs automatically every day at 00:00 UTC
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual trigger from Actions tab
+  workflow_dispatch:
 
 jobs:
   update-quote:
@@ -19,7 +18,6 @@ jobs:
           import random
           import re
 
-          # Curated offline array of iconic Women in Tech quotes
           quotes = [
               {'quote': 'The most dangerous phrase in the language is, \"We\'ve always done it this way.\"', 'author': 'Grace Hopper'},
               {'quote': 'That brain of mine is something more than merely mortal; as time will show.', 'author': 'Ada Lovelace'},
@@ -41,8 +39,8 @@ jobs:
           with open('README.md', 'r') as f:
               content = f.read()
 
-          pattern = r'<!-- DAILY_QUOTE:START -->.*?<!-- DAILY_QUOTE:END -->'
-          replacement = f'<!-- DAILY_QUOTE:START -->\n{new_block}\n<!-- DAILY_QUOTE:END -->'
+          pattern = r'.*?'
+          replacement = f'\n{new_block}\n'
 
           updated_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
