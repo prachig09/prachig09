@@ -53,7 +53,7 @@ jobs:
                   content = f.read()
 
               pattern = r'<!-- RECENT_ACTIVITY:START -->.*?<!-- RECENT_ACTIVITY:END -->'
-              replacement = f'<!-- DAILY_ACTIVITY:START -->\n{activity_str}\n<!-- RECENT_ACTIVITY:END -->'
+              replacement = f'<!-- RECENT_ACTIVITY:START -->\n{activity_str}\n<!-- RECENT_ACTIVITY:END -->'
 
               updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
