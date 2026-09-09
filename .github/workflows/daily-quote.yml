@@ -1,5 +1,4 @@
-
-name: Update Women in Tech Daily Quote
+name: Update Daily Quote
 
 on:
   schedule:
@@ -12,20 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fetch Quote and Update README
         run: |
-          # Fetch dynamic quote from Women in Tech API
-          RESPONSE=$(curl -s "https://quotes-github-readme.vercel.app/api?type=horizontal")
-          
-          # Run Python inline script to parse and update README.md
           python3 -c "
           import urllib.request
           import json
           import re
 
-          # Fetch quote from API
+          # Fetch quotes from API
           url = 'https://raw.githubusercontent.com/skolakoda/programming-quotes-api/master/backup/quotes.json'
           req = urllib.request.urlopen(url)
           data = json.loads(req.read().decode('utf-8'))
