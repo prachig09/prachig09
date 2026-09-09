@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- TOP SYSTEM STATUS BAR -->
 <p align="right">
   <code>MODEL: Prachi-v2.6-AI</code> 
 </p>
@@ -8,7 +7,6 @@
 <h1>Hello! Prachi Here </h1>
 <p><strong>PG Student • Curious Builder • Lifelong Learner</strong></p>
 
-<!-- PASTEL SOCIAL BADGES -->
 <p>
   <a href="https://linkedin.com/in/-prachi-gaonkar/" target="_blank">
     <picture>
@@ -32,7 +30,6 @@
 
 ### 🔍 System Query: Core Directives & Focus
 
-<!-- PROMPT INPUT BOX -->
 ```text
 Input > What is my core focus and current research direction?
 ```
