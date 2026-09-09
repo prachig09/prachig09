@@ -41,19 +41,19 @@ jobs:
                       for commit in event['payload'].get('commits', []):
                           msg = commit['message'].split('\n')[0]
                           sha = commit['sha'][:7]
-                          commits.append(f'* ⚡ [{msg}](https://github.com/{repo_name}/commit/{commit[\"sha\"]}) in `{repo_name}` (`{sha}`)')
+                          commits.append(f'> * ⚡ [{msg}](https://github.com/{repo_name}/commit/{commit[\"sha\"]}) in `{repo_name}` (`{sha}`)')
                           if len(commits) >= 5:
                               break
                   if len(commits) >= 5:
                       break
 
-              activity_str = '\n'.join(commits) if commits else '* No recent public commit activity.'
+              activity_str = '\n'.join(commits) if commits else '> * No recent public commit activity.'
 
               with open('README.md', 'r') as f:
                   content = f.read()
 
-              pattern = r'<!-- RECENT_ACTIVITY:START -->.*?<!-- RECENT_ACTIVITY:END -->'
-              replacement = f'<!-- RECENT_ACTIVITY:START -->\n{activity_str}\n<!-- RECENT_ACTIVITY:END -->'
+              pattern = r'.*?'
+              replacement = f'\n{activity_str}\n'
 
               updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
