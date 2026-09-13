@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Data is not neutral. Algorithms are not neutral. They reflect the biases of their creators."
-> > — *Joy Buolamwini*
+> > "If you think technology will solve your problems, you don't understand the problems and you don't understand the technology."
+> > — *Radia Perlman*
 <!-- DAILY_QUOTE:END -->
 ---
