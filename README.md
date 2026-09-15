@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "AI will change the world, but it won't change what makes us human."
-> > — *Fei-Fei Li*
+> > "If you think technology will solve your problems, you don't understand the problems and you don't understand the technology."
+> > — *Radia Perlman*
 <!-- DAILY_QUOTE:END -->
 ---
