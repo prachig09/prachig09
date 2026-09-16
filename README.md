@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "If you think technology will solve your problems, you don't understand the problems and you don't understand the technology."
-> > — *Radia Perlman*
+> > "Technology should be an equalizer, enabling everyone to participate fully in society."
+> > — *Barbara Liskov*
 <!-- DAILY_QUOTE:END -->
 ---
