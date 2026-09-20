@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "There was no choice but to be pioneers."
-> > — *Margaret Hamilton*
+> > "If you think technology will solve your problems, you don't understand the problems and you don't understand the technology."
+> > — *Radia Perlman*
 <!-- DAILY_QUOTE:END -->
 ---
