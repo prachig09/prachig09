@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "If you think technology will solve your problems, you don't understand the problems and you don't understand the technology."
-> > — *Radia Perlman*
+> > "Coding is the language of the future, and every girl should learn it."
+> > — *Reshma Saujani*
 <!-- DAILY_QUOTE:END -->
 ---
