@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Coding is the language of the future, and every girl should learn it."
-> > — *Reshma Saujani*
+> > "AI will change the world, but it won't change what makes us human."
+> > — *Fei-Fei Li*
 <!-- DAILY_QUOTE:END -->
 ---
