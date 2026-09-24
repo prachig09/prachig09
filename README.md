@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "There was no choice but to be pioneers."
-> > — *Margaret Hamilton*
+> > "Data is not neutral. Algorithms are not neutral. They reflect the biases of their creators."
+> > — *Joy Buolamwini*
 <!-- DAILY_QUOTE:END -->
 ---
