@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "That brain of mine is something more than merely mortal; as time will show."
-> > — *Ada Lovelace*
+> > "There was no choice but to be pioneers."
+> > — *Margaret Hamilton*
 <!-- DAILY_QUOTE:END -->
 ---
