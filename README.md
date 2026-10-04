@@ -86,7 +86,7 @@ Input > Load technical stack, orchestration modules, and system capabilities.
 >
 >**Cloud, Databases & DevOps**
 >
-![Render](https://img.shields.io/badge/Render-F4E285?style=for-the-badge&logo=render&logoColor=2B2D42)
+>![Render](https://img.shields.io/badge/Render-F4E285?style=for-the-badge&logo=render&logoColor=2B2D42)
 ![MySQL](https://img.shields.io/badge/MySQL-E29578?style=for-the-badge&logo=mysql&logoColor=FAF6F0)
 ![MongoDB](https://img.shields.io/badge/MongoDB-F4E285?style=for-the-badge&logo=mongodb&logoColor=2B2D42)
 ![SQLite](https://img.shields.io/badge/SQLite-FFBF69?style=for-the-badge&logo=sqlite&logoColor=2B2D42)
