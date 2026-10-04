@@ -67,7 +67,7 @@ Input > Load technical stack, orchestration modules, and system capabilities.
 >
 > **Agentic AI & ML Infrastructure**
 >
-![PyTorch](https://img.shields.io/badge/PyTorch-E29578?style=for-the-badge&logo=pytorch&logoColor=FAF6F0)
+>![PyTorch](https://img.shields.io/badge/PyTorch-E29578?style=for-the-badge&logo=pytorch&logoColor=FAF6F0)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F4E285?style=for-the-badge&logo=scikitlearn&logoColor=2B2D42)
 ![Pandas](https://img.shields.io/badge/Pandas-FF9F1C?style=for-the-badge&logo=pandas&logoColor=1E1E24)
 ![NumPy](https://img.shields.io/badge/NumPy-E29578?style=for-the-badge&logo=numpy&logoColor=FAF6F0)
