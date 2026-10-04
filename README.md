@@ -126,7 +126,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Technology should be an equalizer, enabling everyone to participate fully in society."
-> > — *Barbara Liskov*
+> > "AI will change the world, but it won't change what makes us human."
+> > — *Fei-Fei Li*
 <!-- DAILY_QUOTE:END -->
 ---
