@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "The most dangerous phrase in the language is, "We've always done it this way.""
-> > — *Grace Hopper*
+> > "If you can see it, you can be it."
+> > — *Anita Borg*
 <!-- DAILY_QUOTE:END -->
 ---
