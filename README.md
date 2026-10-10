@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Data is not neutral. Algorithms are not neutral. They reflect the biases of their creators."
-> > — *Joy Buolamwini*
+> > "The most dangerous phrase in the language is, "We've always done it this way.""
+> > — *Grace Hopper*
 <!-- DAILY_QUOTE:END -->
 ---
