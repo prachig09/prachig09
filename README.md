@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "That brain of mine is something more than merely mortal; as time will show."
-> > — *Ada Lovelace*
+> > "Technology should be an equalizer, enabling everyone to participate fully in society."
+> > — *Barbara Liskov*
 <!-- DAILY_QUOTE:END -->
 ---
