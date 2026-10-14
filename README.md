@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Technology should be an equalizer, enabling everyone to participate fully in society."
-> > — *Barbara Liskov*
+> > "There was no choice but to be pioneers."
+> > — *Margaret Hamilton*
 <!-- DAILY_QUOTE:END -->
 ---
