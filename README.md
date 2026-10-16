@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Data is not neutral. Algorithms are not neutral. They reflect the biases of their creators."
-> > — *Joy Buolamwini*
+> > "Coding is the language of the future, and every girl should learn it."
+> > — *Reshma Saujani*
 <!-- DAILY_QUOTE:END -->
 ---
