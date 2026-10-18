@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Coding is the language of the future, and every girl should learn it."
-> > — *Reshma Saujani*
+> > "There was no choice but to be pioneers."
+> > — *Margaret Hamilton*
 <!-- DAILY_QUOTE:END -->
 ---
