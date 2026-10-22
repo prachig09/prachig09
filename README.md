@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Coding is the language of the future, and every girl should learn it."
-> > — *Reshma Saujani*
+> > "The most dangerous phrase in the language is, "We've always done it this way.""
+> > — *Grace Hopper*
 <!-- DAILY_QUOTE:END -->
 ---
