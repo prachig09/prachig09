@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "Technology should be an equalizer, enabling everyone to participate fully in society."
-> > — *Barbara Liskov*
+> > "Coding is the language of the future, and every girl should learn it."
+> > — *Reshma Saujani*
 <!-- DAILY_QUOTE:END -->
 ---
