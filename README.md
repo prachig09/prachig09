@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "That brain of mine is something more than merely mortal; as time will show."
-> > — *Ada Lovelace*
+> > "If you think technology will solve your problems, you don't understand the problems and you don't understand the technology."
+> > — *Radia Perlman*
 <!-- DAILY_QUOTE:END -->
 ---
