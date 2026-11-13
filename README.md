@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "That brain of mine is something more than merely mortal; as time will show."
-> > — *Ada Lovelace*
+> > "If you can see it, you can be it."
+> > — *Anita Borg*
 <!-- DAILY_QUOTE:END -->
 ---
