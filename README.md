@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "If you can see it, you can be it."
-> > — *Anita Borg*
+> > "There was no choice but to be pioneers."
+> > — *Margaret Hamilton*
 <!-- DAILY_QUOTE:END -->
 ---
