@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "There was no choice but to be pioneers."
-> > — *Margaret Hamilton*
+> > "AI will change the world, but it won't change what makes us human."
+> > — *Fei-Fei Li*
 <!-- DAILY_QUOTE:END -->
 ---
