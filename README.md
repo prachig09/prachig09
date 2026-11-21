@@ -119,7 +119,7 @@ Input > Fetch daily_quote
 >**System Output** `[Streaming Daily Inspiration...]`
 >
 > <!-- DAILY_QUOTE:START -->
-> > "AI will change the world, but it won't change what makes us human."
-> > — *Fei-Fei Li*
+> > "That brain of mine is something more than merely mortal; as time will show."
+> > — *Ada Lovelace*
 <!-- DAILY_QUOTE:END -->
 ---
